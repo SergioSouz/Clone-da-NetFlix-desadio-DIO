@@ -19,15 +19,16 @@ body{
     color: white;
 
 }
-header .flex-container{
-    padding: 15px;
+header .container{
+   
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 header .logo{
     color: var(--vermelho);
-    font-family: 'Arial Black';
+    font-family: 'Arial Black' Times;
     font-size: 30px;
     margin-left: 10px;
 }
@@ -47,10 +48,10 @@ header nav a:hover {
 .filme-principal{
     font-size: 16px;
     background: url(../img/slide01.jpg);
-    background-repeat: no-repeat ;
-    background-position: unset ;
-    height: 700px;
+    height: 500px;
     background-size: cover;
+
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,5 +98,27 @@ header nav a:hover {
 }
 
 .filme-principal .container{
-    width: 40%;
+    width: 60%;
 }
+.box-filme{
+    margin-top: 15px;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
